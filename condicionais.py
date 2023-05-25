@@ -1,9 +1,8 @@
-#Utilizando condicionais
+# Utilizando condicionais
 salario = float(input("Digite o seu salário: "))
-novoSalario = 0.0
 
 if(salario < 2000):
-    novoSalario = (110.00 * salario)
-    print("Seu novo salário é :", novoSalario)
+    salario = (1.10 * salario)
+    print("Seu novo salário é :", round(salario, 2))
 else:
     print("Não há aumentos disponíveis.")
